@@ -1,3 +1,6 @@
+:root {
+	--mainColor:#eb5424;
+}
 html, body{
     font-size: 100%;
 	font-family: 'Open Sans', sans-serif;
@@ -67,7 +70,12 @@ ul, label {
     font-weight: bold;
   }
 .nav-link.active {
-	border-top: 2px solid #eb5424;
+	background: linear-gradient(to bottom, var(--mainColor)0%, var(--mainColor) 100%);
+	background-position: 0 0;
+	background-repeat: repeat-x;
+	background-size: 3px 3px;
+	color:#000;
+	text-decoration: none;
 }
 
 .carousel-item img {
