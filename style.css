@@ -70,7 +70,7 @@ ul, label {
 	font-weight: bold;
 	color: rgba(0,0,0,.9);
   }
-.nav-link.active {
+.nav-link.active,.nav-link:hover{
 	background: linear-gradient(to bottom, var(--mainColor)0%, var(--mainColor) 100%);
 	background-position: 0 0;
 	background-repeat: repeat-x;
