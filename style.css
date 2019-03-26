@@ -67,7 +67,8 @@ ul, label {
 .nav-link {
     font-size: 1.1em !important;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    font-weight: bold;
+	font-weight: bold;
+	color: rgba(0,0,0,.9);
   }
 .nav-link.active {
 	background: linear-gradient(to bottom, var(--mainColor)0%, var(--mainColor) 100%);
