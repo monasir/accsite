@@ -1,3 +1,6 @@
+:root {
+	--mainColor:#eb5424;
+}
 html, body{
     font-size: 100%;
 	font-family: 'Open Sans', sans-serif;
@@ -64,10 +67,23 @@ ul, label {
 .nav-link {
     font-size: 1.1em !important;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-    font-weight: bold;
+	font-weight: bold;
+	color: rgba(0,0,0,.9);
   }
-.nav-link.active {
-	border-top: 2px solid #eb5424;
+.nav-link.active,.nav-link:hover{
+	background: linear-gradient(to bottom, var(--mainColor)0%, var(--mainColor) 100%);
+	background-position: 0 0;
+	background-repeat: repeat-x;
+	background-size: 3px 3px;
+	color:#000;
+	text-decoration: none;
+	transition: background-size 0.2s;
+}
+
+
+
+.nav-link:hover {
+  background-size: 4px 40px;
 }
 
 .carousel-item img {
