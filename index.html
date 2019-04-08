@@ -14,6 +14,7 @@
 	<link href="style.css" rel="stylesheet">
 </head>
 <body>
+	<div class="overallgrid">
     <div class="main_section">
 
 	    <div class="banner_top">
@@ -109,7 +110,7 @@
 				<span class="sr-only">Next</span>
 			  </a>
 	</div>
-
+	
 	<!--Bottom banner-->
 	<div class="container-fluid padding bottom-banner">
 		<div class="row text-center">
@@ -206,9 +207,11 @@
 			</div>
 		</div>
 	</div>
-
+</div>
 	<!--Scroll to the top of the page-->
-	<button id="toTop"></button>
+	<a href="#" id="toTop">
+		<span id="toTopHover" style="opacity: 0;"></span>
+	</a>
 	<script>
 		let basicScrollTop = () => {
 			//The button
